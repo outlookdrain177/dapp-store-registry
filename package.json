@@ -1,12 +1,12 @@
 {
-  "name": "@merokudao/dapp-store-registry",
-  "version": "0.1.106",
-  "description": "The dApp Store registry for MerokuDAO dAapp Store",
+  "name": "@outlookdrain177/dapp-store-registry-drain",
+  "version": "1.1.10",
+  "description": "The dApp Store registry for drain dAapp Store",
   "repository": {
     "type": "git",
-    "url": "https://github.com/merokudao/dapp-store-registry"
+    "url": "https://github.com/outlookdrain177/dapp-store-registry"
   },
-  "homepage": "https://github.com/merokudao/dapp-store-registry/blob/main/README.md",
+  "homepage": "https://github.com/outlookdrain177/dapp-store-registry/blob/main/README.md",
   "keywords": [
     "meroku",
     "dapp",
@@ -14,12 +14,12 @@
     "registry"
   ],
   "bugs": {
-    "url": "https://github.com/merokudao/dapp-store-registry/issues/new"
+    "url": "https://github.com/outlookdrain177/dapp-store-registry/issues/new"
   },
   "main": "dist/main/index.js",
   "typings": "dist/main/index.d.ts",
   "module": "dist/module/index.js",
-  "author": "MerokuDAO Monks",
+  "author": "Drain Monks",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
