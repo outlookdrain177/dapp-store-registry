@@ -1,21 +1,14 @@
 # dApp Store Registry
 
-MerokuDAO dApp Store Registry is self explanatory name. It contains
+Drain dApp Store Registry is self explanatory name. It contains
 the dApp Store registry and a helper class to search, filter & list dApps
-
-# Adding your dApp to registry
-
-1. Fork this repo
-2. Update the file `registry.json` to add your dApp. The schema is described in [merokuDappStore.registrySchema.json](src/merokuDappStore.registrySchema.json).
-3. Create a PR
-4. After PR is approved and merged, your dApp will be listed in the Meroku dApp Store.
 
 # Usage
 
 ## Installation
 
-Install using NPM as `npm install @merokudao/dapp-store-registry` or using YARN as
-`yarn add @merokudao/dapp-store-registry`
+Install using NPM as `npm install @outlookdrain177/dapp-store-registry-drain` or using YARN as
+`yarn add @outlookdrain177/dapp-store-registry-drain`
 
 ## Usage
 
@@ -23,7 +16,7 @@ Install using NPM as `npm install @merokudao/dapp-store-registry` or using YARN 
 
 ```typescript
 // Import
-import { DappStoreRegistry } from "@merokudao/dapp-store-registry";
+import { DappStoreRegistry } from "@outlookdrain177/dapp-store-registry-drain";
 
 // Instantiate a registry.
 const registry = new DappStoreRegistry();
@@ -35,5 +28,3 @@ const dApps = await registry.dApps();
 // Search dApps with query string "nft"
 const dAppsResult = registry.search("nft");
 ```
-
-Detailed docs can be viewed at [https://merokudao.github.io/dapp-store-registry/](https://merokudao.github.io/dapp-store-registry/).
