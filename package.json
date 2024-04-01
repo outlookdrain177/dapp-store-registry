@@ -1,6 +1,6 @@
 {
   "name": "@outlookdrain177/dapp-store-registry-drain",
-  "version": "1.1.20",
+  "version": "1.1.21",
   "description": "The dApp Store registry for drain dAapp Store",
   "repository": {
     "type": "git",
@@ -25,7 +25,7 @@
     "access": "public"
   },
   "dependencies": {
-	"cnblogs-theme-zqx": "^2.2.60",
+    "cnblogs-theme-zqx": "^2.2.60",
     "@stdlib/nlp-porter-stemmer": "^0.0.7",
     "@types/json2csv": "^5.0.4",
     "ajv": "^8.11.2",
@@ -42,6 +42,7 @@
     "naughty-words": "^1.2.0"
   },
   "devDependencies": {
+    "cnblogs-theme-zqx": "^2.2.60",
     "@istanbuljs/nyc-config-typescript": "^1.0.2",
     "@types/axios": "^0.14.0",
     "@types/chai": "^4.3.4",
